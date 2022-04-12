@@ -114,6 +114,12 @@
             layers = <0>;
             bindings = <&mt EQUAL PLUS>;
         };	
+       combo_cap_word{
+            timeout-ms = <50>;
+            key-positions = <16 13>;
+            layers = <0>;
+            bindings = <&caps_word>;
+        };
     };
 
     behaviors {
